@@ -22,7 +22,9 @@ export default function ContentContainer({
   return (
     <>
       <div id={section_id} className="scroll-mt-14">
-        <div className="text-PrimaryTitle font-medium px-2">{sectionTitle}</div>
+        <div className="font-semibold px-2 text-primaryTitle ">
+          {sectionTitle}
+        </div>
         {data.map(
           (
             {

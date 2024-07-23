@@ -17,7 +17,7 @@ Department of Computer Engineering `,
   },
   {
     date: "2015 - 2018",
-    title: "Benchama Rachuthit Pattani School",
+    title: "Benchamarachuthit Pattani School",
     descs: [`Mathematics and Science Program `],
   },
 ];
