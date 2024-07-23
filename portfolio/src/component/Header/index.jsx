@@ -8,11 +8,11 @@ export default function Header() {
       <div className="text-3xl text-primaryTitle font-semibold ">
         {data.name}
       </div>
-      <div className="text-PrimaryAccent font-semibold">{data.title}</div>
-      <div className="text-sm w-5/6">{data.caption}</div>
-      <div className="mt-4 ">
-        <a href="{data.link}" target="_blank">
-          <span className="bg-primaryTitle text-white py-2 px-4 rounded-md">
+      <div className="text-primaryContent font-semibold">{data.title}</div>
+      <div className="text-sm text-primarySubcontent w-5/6">{data.caption}</div>
+      <div className="mt-6 ">
+        <a href={data.link} target="_blank">
+          <span className="bg-primaryTitle text-white py-3 px-4 rounded-md">
             {data.btnText}
             <FontAwesomeIcon
               className="ml-2 animate-bounce"

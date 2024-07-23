@@ -3,13 +3,16 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
       colors: {
-        primaryTitle: "#112D4E",
-        primaryContent: "#2E236C",
-        primarySubcontent: "#433D8B",
-        primaryAccent: "#C8ACD6",
+        primaryTitle: "#3F72AF",
+        primaryContent: "#405D72",
+        primarySubcontent: "#758694",
+        primaryAccent: "#DBE2EF",
         primaryBase: "#00000",
-        primaryBg: "#BBE9FF",
+        primaryBg: "#F9F7F7",
       },
     },
   },

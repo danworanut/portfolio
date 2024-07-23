@@ -5,7 +5,7 @@ export default function Date({ isHighlight, children }) {
   return (
     <>
       <div>
-        <span className={`text-sm ${isHighlight ? "text-red-800" : ""}`}>
+        <span className={`text-sm ${isHighlight ? "text-primaryTitle" : ""}`}>
           {children}
         </span>
       </div>

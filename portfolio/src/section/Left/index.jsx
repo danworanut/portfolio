@@ -3,21 +3,22 @@ import Header from "../../component/Header";
 import Navbar from "../../component/Navbar";
 import Contact from "../../component/Contact";
 
-export default function Left() {
+export default function Left({ navBarItems, currentSection }) {
   return (
-    <div>
-      <div className="sticky top-14 grid gap-y-5 lg:grid-rows-[35%_45%_20%] lg:h-[85vh] px-3">
-        <div className="flex flex-col gap-2">
-          <Header />
-        </div>
+    <>
+      <div className="px-5 mb-14 lg:mb-0">
+        <div className="lg:sticky top-14 grid gap-y-5 lg:grid-rows-[35%_45%_20%] lg:h-[81.5vh] ">
+          <div className="flex flex-col gap-3">
+            <Header />
+          </div>
 
-        <div className="flex flex-col gap-4 font-semibold">
-          <Navbar />
-        </div>
-        <div className="flex items-end gap-4 text-2xl ">
-          <Contact />
+          <Navbar navBarItems={navBarItems} currentSection={currentSection} />
+
+          <div className="flex items-end gap-4 text-2xl ">
+            <Contact />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

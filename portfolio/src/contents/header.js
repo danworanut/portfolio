@@ -1,8 +1,9 @@
+import resume from "../assets/woranut_dangworawith-resume.pdf";
 export const data = {
   name: "Woranut Dangworawith",
   title: "Software Developer",
   caption:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam iusto accusamus dicta quod voluptas hic quidem ducimus aut nulla laboriosam adipisci enim atque dignissimos ab, et eaque corrupti nobis",
+    "I am a recent Computer Engineering graduate driven to achieve excellence in my career. Dedicated to continuous self-improvement, I am eager to contribute and grow",
   btnText: "Veiw Resume",
-  link: "https://www.google.co.th/",
+  link: resume,
 };

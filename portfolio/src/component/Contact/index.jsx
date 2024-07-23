@@ -6,18 +6,20 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <div>
+      <a href="https://github.com/danworanut" target="_blank">
         <FontAwesomeIcon
           className="hover:scale-125 hover:text-primaryTitle transition-all"
           icon={faGithub}
         />
-      </div>
-      <div>
-        <FontAwesomeIcon
-          className="hover:scale-125  hover:text-primaryTitle transition-all"
-          icon={faEnvelope}
-        />
-      </div>
+      </a>
+      <a href="mailto:dan.woranut@gmail.com">
+        <div>
+          <FontAwesomeIcon
+            className="hover:scale-125  hover:text-primaryTitle transition-all"
+            icon={faEnvelope}
+          />
+        </div>
+      </a>
     </>
   );
 }
